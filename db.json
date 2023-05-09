@@ -1,0 +1,70 @@
+{
+    "usuarios":[
+        {
+            "user":"sa123",
+            "nombre":"santiago123", 
+            "password": 1097096617,
+            "id": 1,
+            "email": "santiago123@gmail.com"
+        }, 
+
+        {
+            "usuario":"ed123",
+            "nombre": "edgar",
+            "contraseña": "12345",
+            "id":2,
+            "email": "edgar123@gmail.com"
+        }
+    ],
+    "categorias":[
+        {
+             "id": 1,
+             "nombre" : [],
+             "descripcion": []
+
+    }
+    ],
+
+    "Productos": [
+        { 
+         "id": [],
+         "nombre": [],
+         "precio": [],
+         "stock": [],
+         "categoriaId": []
+        }
+    ],
+    "clientes": [
+        {
+            "id": [],
+            "imagen": [],
+            "nombre": [],
+            "direccion": [],
+            "telefono": []
+        }
+    ],
+    "VentasFacturas": [
+        {
+            "id": [],
+            "clienteId": [],
+            "empleadoId": [],
+            "fecha": []
+        }
+    ],
+    "detalleFactura":[
+        {
+            "facturaId": [],
+            "productoId": [],
+            "cantidad": []
+        }
+    ],
+    "Compras": [
+        {
+            "id": [],
+            "fecha": [],
+            "productoId":[],
+            "cantidad": [],
+            "proveedor":[]
+        }
+    ]
+}
